@@ -3,12 +3,14 @@
 
 ## Projects
 
-### Rovus - Robotique UdeS
-
+### Rovus - Robotique UdeS 
+[![GitHub](https://img.shields.io/badge/GitHub-Rovus-black?logo=github)](https://github.com/robotique-udes/rover)
 
 ### La Machine - Jeux de génie
 
+
 ### Aetos - School project
+[![GitHub](https://img.shields.io/badge/GitHub-Aetos-black?logo=github)](https://github.com/Projet-S4-MDM/Aetos)
 
 <!--
 
