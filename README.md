@@ -18,13 +18,19 @@ The goal behind Rovus is to create a 100% student made martian rover. I've been 
 ### Personnal contributions
 
 #### Software
-- Development of high level control (ROS2) of the drive train
-- Development of inverse kinematic high level control (ROS2) 
+- High level control (ROS2) of the drive train
+- High level (ROS2) inverse kinematic controller for the rover's robotic arm
+- Low level control and interfacing of CubeMars motor
+- Detect and avoid features with UnitreeL1 lidat
+- Mission planner using Qt6
 
 ![rover](media/rover_1.jpeg)
 
 ### Results
-
+- [CIRC](https://circ.cstag.ca/) 2025 - 5th place (International), 2nd place (Canada)
+- [CIRC](https://circ.cstag.ca/) 2025 - Winner of Arm Dexterity challenge
+- [CIRC](https://circ.cstag.ca/) 2024 - 5th place (International), 2nd place (Canada)
+- [CRQRC](https://www.instagram.com/crq_qrc/) 2024 - 1st place
 
 ## La Machine - Jeux de génie
 
