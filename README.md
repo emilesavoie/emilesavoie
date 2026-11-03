@@ -137,7 +137,7 @@ As software design lead, I was responsible for establishing the overall software
 
 # ECHO – Capstone University project
 
-<sub>Embedded Software & Control Systems</sub>
+<sub>Embedded Software Lead</sub>
 
 ECHO is a multidisciplinary engineering project focused on the development of embedded control systems for haptic applications. The project involves designing and integrating custom electronics, embedded firmware, and control algorithms to interface with electromechanical systems.
 
