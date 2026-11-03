@@ -141,7 +141,7 @@ As software design lead, I was responsible for establishing the overall software
 
 ECHO is a multidisciplinary engineering project focused on the development of embedded control systems for haptic applications. The project involves designing and integrating custom electronics, embedded firmware, and control algorithms to interface with electromechanical systems.
 
-My work has primarily focused on embedded software architecture, hardware abstraction, and low-level control. A key objective has been to develop reusable and hardware-agnostic software components that can be deployed across different microcontrollers and embedded platforms without compromising performance or maintainability.
+My work has primarily focused on embedded software architecture, hardware abstraction, and low-level control. A key objective has been to develop reusable and hardware-agnostic software components that can be deployed across different microcontrollers and embedded platforms such as STM32 or TI without compromising performance or maintainability.
 
 ## Personal Contributions
 
