@@ -14,6 +14,39 @@ Enjoy!
 
 ---
 
+# ECHO – Capstone University project
+
+<sub>Embedded Software Lead</sub>
+
+ECHO is a multidisciplinary engineering project focused on the development of embedded control systems for haptic applications. The project involves designing and integrating custom electronics, embedded firmware, and control algorithms to interface with electromechanical systems.
+
+My work has primarily focused on embedded software architecture, hardware abstraction, and low-level control. A key objective has been to develop reusable and hardware-agnostic software components that can be deployed across different microcontrollers and embedded platforms such as STM32 or TI without compromising performance or maintainability.
+
+## Personal Contributions
+
+### Embedded Software Architecture
+
+- **Hardware abstraction:** Design of a hardware abstraction layer (HAL) to decouple application logic from hardware-specific implementations, facilitating portability across embedded platforms.
+- **Generic programming:** Development of reusable C++23 components using templates, concepts, and compile-time polymorphism to minimize runtime overhead and enforce interface requirements at compile time.
+- **Hardware-agnostic libraries:** Design of modular C++ libraries that separate hardware dependencies from application logic, allowing the same interfaces and control components to be reused across different platforms.
+- **Peripheral interfacing:** Development of hardware-specific implementations for STM32 microcontrollers using the STM32 HAL, with an emphasis on clean interfaces and separation of concerns.
+- **Software architecture:** Application of modern C++ practices, including RAII, static polymorphism, and compile-time interface validation, to improve memory safety, maintainability, and execution efficiency.
+
+### Motor Control & Haptic Systems
+
+- **Motor control:** Development of embedded control interfaces for BLDC motors and electromechanical actuators.
+- **Current control:** Implementation of interfaces for controlling a magnetorheological (MR) clutch through a Maxon ESCON motor controller.
+- **Actuator characterization:** Development and integration of mathematical models to relate actuator input commands to their resulting mechanical output.
+- **Control architecture:** Design of modular control components to facilitate the implementation and testing of different control strategies.
+
+### Electronics & Hardware Integration
+
+- Development and integration of embedded control electronics based on the STM32H755 microcontroller.
+- Hardware interfacing for PWM-driven actuators and motor controllers.
+- Separation of application-level control logic from microcontroller-specific peripheral implementations.
+
+---
+
 # Rovus – Robotique UdeS
 
 [![GitHub](https://img.shields.io/badge/GitHub-Rovus-black?logo=github)](https://github.com/robotique-udes/rover)
@@ -135,33 +168,3 @@ As software design lead, I was responsible for establishing the overall software
 
 ---
 
-# ECHO – Capstone University project
-
-<sub>Embedded Software Lead</sub>
-
-ECHO is a multidisciplinary engineering project focused on the development of embedded control systems for haptic applications. The project involves designing and integrating custom electronics, embedded firmware, and control algorithms to interface with electromechanical systems.
-
-My work has primarily focused on embedded software architecture, hardware abstraction, and low-level control. A key objective has been to develop reusable and hardware-agnostic software components that can be deployed across different microcontrollers and embedded platforms such as STM32 or TI without compromising performance or maintainability.
-
-## Personal Contributions
-
-### Embedded Software Architecture
-
-- **Hardware abstraction:** Design of a hardware abstraction layer (HAL) to decouple application logic from hardware-specific implementations, facilitating portability across embedded platforms.
-- **Generic programming:** Development of reusable C++23 components using templates, concepts, and compile-time polymorphism to minimize runtime overhead and enforce interface requirements at compile time.
-- **Hardware-agnostic libraries:** Design of modular C++ libraries that separate hardware dependencies from application logic, allowing the same interfaces and control components to be reused across different platforms.
-- **Peripheral interfacing:** Development of hardware-specific implementations for STM32 microcontrollers using the STM32 HAL, with an emphasis on clean interfaces and separation of concerns.
-- **Software architecture:** Application of modern C++ practices, including RAII, static polymorphism, and compile-time interface validation, to improve memory safety, maintainability, and execution efficiency.
-
-### Motor Control & Haptic Systems
-
-- **Motor control:** Development of embedded control interfaces for BLDC motors and electromechanical actuators.
-- **Current control:** Implementation of interfaces for controlling a magnetorheological (MR) clutch through a Maxon ESCON motor controller.
-- **Actuator characterization:** Development and integration of mathematical models to relate actuator input commands to their resulting mechanical output.
-- **Control architecture:** Design of modular control components to facilitate the implementation and testing of different control strategies.
-
-### Electronics & Hardware Integration
-
-- Development and integration of embedded control electronics based on the STM32H755 microcontroller.
-- Hardware interfacing for PWM-driven actuators and motor controllers.
-- Separation of application-level control logic from microcontroller-specific peripheral implementations.
